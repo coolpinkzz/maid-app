@@ -1,0 +1,92 @@
+
+.container1
+{
+    width: 31.33%;
+    height: 300px;
+    margin: 80px 1% 10px 1%;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    background-color: rgb(10, 51, 85);
+    float: left;
+    text-align: center;
+}
+h3
+{
+    color: white;
+}
+.container2
+{
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    margin: 10px 1% 10px 10px;
+    vertical-align: top;
+    line-height: 30px;
+}
+.services
+{
+    
+    width: 23%;
+    margin-left: 10px;
+    height:233px;
+}
+.region
+{
+    display: flex;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+td 
+{
+padding: 11px 11px;
+text-align: justify;
+}
+.using
+{
+    
+    width:31.33%
+}
+.using img{
+    width: 50px;
+    height: 50px;
+}
+.services1 img
+{
+    width: 120px;
+    height: 120px;
+}
+
+.services img{
+    width: 170px;
+    height: 201px;
+}
+.services3 img{
+    width: 100px;
+    height: 100px;
+
+}
+.services3
+{
+    
+    width: 23%;
+}
+.offer
+{
+    display: flex;
+}
+.part1{
+    display: flex;
+}
+.part2{
+    display: flex;
+}
+.safety{
+    display: flex;
+    justify-content: center;
+}
+
