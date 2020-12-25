@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>requirements</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    
+        .switch {
+          position: relative;
+          left: 250px;
+          bottom:40px;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+        }
+        
+        .switch input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #ccc;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        input:checked + .slider {
+          background-color: #2196F3;
+        }
+        
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+        
+        .slider.round:before {
+          border-radius: 50%;
+        }
+       
+        body{
+          overflow-x: hidden;
+        }
+        .contact{
+          margin-left: 1200px;
+        }
+        .parentdiv{
+          top:100px;
+        }
+        
+    
+    </style>
+</head>
+    <body>
+      <h1 class="logocaption">Quick-e hire</h1>
+      <div class="contact">
+          <p>Your Contact No.</p>
+          <p>
+              <span>
+                  09986782689</span> <a href="#" class="btn_auto flot-right" data-id="ContactNumberpopup">Edit</a></p>
+      </div>
+  </div>
+
+            <div class="  container" >
+            <h3> Few more details of your requirements </h3>
+            <p> <b>Number of people in the house</b> </p>                                         
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Select number of members
+                </button>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"> 1</a>
+                <a class="dropdown-item" href="#"> 2</a>
+                <a class="dropdown-item" href="#"> 3</a>
+                <a class="dropdown-item" href="#"> 4</a>
+                <a class="dropdown-item" href="#"> 5</a>
+                <a class="dropdown-item" href="#"> 6</a>
+                <a class="dropdown-item" href="#"> 7</a>
+                <a class="dropdown-item" href="#"> 8</a>
+                <a class="dropdown-item" href="#"> 9</a>
+                <a class="dropdown-item" href="#">10</a>
+                <a class="dropdown-item" href="#"> more </a>
+
+                </div>
+            </div>
+            </div>
+
+            <div class=" col-3 container" style="bottom:75px;" >
+                <p> <b>Size of the house</b> </p>                                         
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Select room type
+                </button>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"> 1 BHK</a>
+                <a class="dropdown-item" href="#"> 2 BHK</a>
+                <a class="dropdown-item" href="#"> 3 BHK</a>
+                <a class="dropdown-item" href="#"> 4 BHK</a>
+                <a class="dropdown-item" href="#"> 5 BHK</a>
+                <a class="dropdown-item" href="#"> more </a>
+            
+                </div>
+            </div>
+            </div>
+            <div class="col" style="margin-left: 850px; margin-top: -150px;">
+              <p><b>Time slot preference(if any)</b></p>
+              <input type="text" size="15" placeholder="From">
+              <input type="text" size="15" placeholder="To">
+            </div>
+            <br>
+             
+            <div class = " container">
+                <p><b>Select your needs for cleaner</b></p>
+
+                <p>Bathroom cleaning  </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p >Clothes ironing  </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p >Dusting </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p >Grocery Shopping </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <div class="col " style=" left:600px; bottom:340px;">
+                        <p >Clothes washing</p>
+                        <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        </label>
+                        <p>Floor cleaning  </p>
+                        <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        </label>
+                        <p>Utensil washing  </p>
+                        <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        </label>
+                        <p>Using Vaccum Cleaner </p>
+                        <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        </label>
+                    </div>
+            </div>
+            <div class="container">
+            <p style="margin-top: -300px;"><b>Other Cleaning Services</b></p>
+            <input type="text" size="150" placeholder="Other Cleaning Services">
+            </div>
+            <br>
+            <div class = "container">
+            <p><b>Select your needs for cook</b></p>
+            <p>Food Type</p>
+
+                <p>Vegetarian type  </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p>Non Vegetarian type </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <div class="col " style=" left:600px; bottom:215px;">
+                  <p>Meal Type</p>
+                <p >Breakfast</p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p >Lunch </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                <p >Dinner </p>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                </label>
+                </div>
+            </div>
+            <div class="container">
+            <p style="margin-top: -230px;"><b>Food preferences</b></p>
+            <input type="text" size="150" placeholder="Ex: North-Indian,South-Indian,etc..">
+          </div>
+          <br>
+            <div class="container">
+              <p><b>Select your needs for baby sitter</b></p>
+              <p> Age of Baby </p>                                         
+              <div class="dropdown">
+                  <button type="button" style="width: 250px;" class=" dropdown-toggle"data-toggle="dropdown">
+                  New Born
+                  </button>
+                  <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"> 1 month</a>
+                  <a class="dropdown-item" href="#"> 2 month</a>
+                  <a class="dropdown-item" href="#"> 3 month</a>
+                  <a class="dropdown-item" href="#"> 4 month</a>
+                  <a class="dropdown-item" href="#"> 5 month</a>
+                  <a class="dropdown-item" href="#"> 6 month</a>
+                  <a class="dropdown-item" href="#"> 7 month</a>
+                  <a class="dropdown-item" href="#"> 8 month</a>
+                  <a class="dropdown-item" href="#"> 9 month</a>
+                  <a class="dropdown-item" href="#"> 10 month</a>
+                  <a class="dropdown-item" href="#"> 11 month</a>
+                  <a class="dropdown-item" href="#"> 1 year</a>
+                  <a class="dropdown-item" href="#"> 2 year</a>
+                  <a class="dropdown-item" href="#"> 3 year</a>
+                  <a class="dropdown-item" href="#"> 4 year</a>
+                  <a class="dropdown-item" href="#"> 5 year</a>
+                  <a class="dropdown-item" href="#"> 6 year</a>
+                  <a class="dropdown-item" href="#"> 7 year</a>
+                  <a class="dropdown-item" href="#"> 8 year</a>
+                  <a class="dropdown-item" href="#"> 9 year</a>
+                  <a class="dropdown-item" href="#"> 10 year</a>
+                  </div>
+                  <div class="col " style=" left:600px; bottom:75px;">
+                  <p>Gender of Baby</p>
+                  <form>
+                    <label class="radio-inline">
+                      <input type="radio" name="optradio">Boy
+                    </label>
+                    <label class="radio-inline" style="margin-left: 30px;">
+                      <input type="radio" name="optradio">Girl
+                    </label>
+                    <label class="radio-inline" style="margin-left: 30px;">
+                      <input type="radio" name="optradio">Others
+                    </label>
+                  </form>
+                   </div>
+            </div>
+            <div class = " container">
+              <p><b>Work that he/she needs to do</b></p>
+
+              <p>Baby Bathing</p>
+              <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+              </label>
+              <p >Feeding</p>
+              <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+              </label>
+              <p >Preparing Food</p>
+              <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+              </label>
+              <p >Taking Baby for a walk</p>
+              <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+              </label>
+              <div class="col " style=" left:600px; bottom:340px;">
+                      <p >Baby Massage</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p>Preparing Baby for sleep</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p>Washing Baby Clothes</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p>Cleaning Utensils of Baby</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                  </div>
+                  <div class="container">
+                    <p style="margin-top: -300px;"><b>Other Baby Sitting Services</b></p>
+                    <input type="text" size="150" placeholder="Other Baby Sitting Services">
+                    </div>
+                    <br>
+                    <div class = " container">
+                      <p><b>Select your needs for elderly care</b></p>
+                      <p> Age of Elderly </p>                                         
+              <div class="dropdown">
+                  <button type="button" style="width: 250px;" class=" dropdown-toggle"data-toggle="dropdown">
+                  -Select Age-
+                  </button>
+                  <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">51-55 years</a>
+                  <a class="dropdown-item" href="#">56-60 years</a>
+                  <a class="dropdown-item" href="#">61-65 years</a>
+                  <a class="dropdown-item" href="#">66-70 years</a>
+                  <a class="dropdown-item" href="#">71-75 years</a>
+                  <a class="dropdown-item" href="#">76-80 years</a>
+                  <a class="dropdown-item" href="#">81-85 years</a>
+                  <a class="dropdown-item" href="#">86-90 years</a>
+                  <a class="dropdown-item" href="#">91-95 years</a>
+                  <a class="dropdown-item" href="#">96-100 years</a>
+                  <a class="dropdown-item" href="#">101-105 years</a>
+                  <a class="dropdown-item" href="#">106-110 years</a>
+                  <a class="dropdown-item" href="#">111-115 years</a>
+                  <a class="dropdown-item" href="#">116-120 years</a>
+                  </div>
+                  <div class="col " style=" left:400px; bottom:70px;">
+                    <p>Gender of Elderly</p>
+                  <form>
+                    <label class="radio-inline">
+                      <input type="radio" name="optradio">Male
+                    </label>
+                    <label class="radio-inline" style="margin-left: 30px;">
+                      <input type="radio" name="optradio">Female
+                    </label>
+                    <label class="radio-inline" style="margin-left: 30px;">
+                      <input type="radio" name="optradio">Others
+                    </label>
+                  </form>
+                   </div>
+                   <div class="col " style=" left:800px; bottom:150px;">
+                   <p>Is he/she bed-ridden</p>
+                   <div class="dropdown">
+                    <button type="button" style="width: 250px;" class=" dropdown-toggle"data-toggle="dropdown">
+                    -Bed-Ridden-
+                    </button>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Yes</a>
+                    <a class="dropdown-item" href="#">No</a>
+                    </div>
+                   </div>
+                   </div>
+                    <div class = " container">
+                      <p style="margin-top: -80px;"><b>Work that he/she needs to do</b></p>
+        
+                      <p>Bathing and Sponging</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p>Cooking for Patient</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p >Feeding</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                      <p >Injection</p>
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label>
+                    </div>
+                      <div class="col " style=" left:600px; bottom:340px;">
+                              <p >Massage and Taking for a walk</p>
+                              <label class="switch">
+                              <input type="checkbox">
+                              <span class="slider round"></span>
+                              </label>
+                              <p>Medicines</p>
+                              <label class="switch">
+                              <input type="checkbox">
+                              <span class="slider round"></span>
+                              </label>
+                              <p>Changing Diaper</p>
+                              <label class="switch">
+                              <input type="checkbox">
+                              <span class="slider round"></span>
+                              </label>
+                              <p>Cleaning Utensils of Elderly</p>
+                              <label class="switch">
+                              <input type="checkbox">
+                              <span class="slider round"></span>
+                              </label>
+                          </div>
+                          <div class="container">
+                            <p style="margin-top: -300px;"><b>Details of service required to the Elder/Patient</b></p>
+                            <input type="text" size="150" placeholder="Other Elderly Care Services">
+                            </div>
+                            <br>
+                          <div class="container">
+                            <p><b>Religion Preference(if any)</b></p>
+                            <div class="dropdown">
+                              <button type="button" style="width: 250px;" class=" dropdown-toggle"data-toggle="dropdown">
+                              -Religion-Preferences-
+                              </button>
+                              <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Hindu</a>
+                              <a class="dropdown-item" href="#">Muslim</a>
+                              <a class="dropdown-item" href="#">Christian</a>
+                              <a class="dropdown-item" href="#">Jain</a>
+                              <a class="dropdown-item" href="#">Sikh</a>
+                              <a class="dropdown-item" href="#">Buddist</a>
+                          </div>
+                          <div class="col " style=" left:400px; bottom:70px;">
+                            <p><b>Gender Preference</b></p>
+                            <div class="dropdown">
+                              <button type="button" style="width: 250px;" class=" dropdown-toggle"data-toggle="dropdown">
+                              -Gender-Preferences-
+                              </button>
+                              <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Male</a>
+                              <a class="dropdown-item" href="#">Female</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col " style=" left:800px; bottom:140px;">
+                            <p><b>Age Preferences</b></p>
+                            <input type="text" size="30" placeholder="-Age-Preferences-">
+                          </div>
+                          <div class="container" style="margin-top: -80px;">
+                            <p><b>Any Other Comments</b></p>
+                            <textarea rows="1" cols="50" placeholder="Any Other Comments"></textarea>
+                          </div>
+                          <br>
+                        <div class="container" style="margin-left: 250px;">
+                          <button type="button" class="btn btn-success" style="width: 50%;">Save Changes</button>
+                        </div>
+
+                          
+
+
+</body>
+</html>
